@@ -22,7 +22,7 @@ export async function pokemonsPage(app) {
     <div class="grid">${cards}</div>
   `;
 
-  const search_btn = document.getElementById('search-btn');
+  const search_btn = document.getElementById('search_btn');
   const search = document.getElementById('search');
   const cards1 = document.querySelectorAll('.card');
 

@@ -16,7 +16,7 @@ export async function pokemonsPage(app) {
   app.innerHTML = `
     <form>
       <input id="search" placeholder="Найти покемона по имени" />
-      <button id="search-btn" type="button">Найти</button>
+      <button id="search_btn" type="button">Найти</button>
     </form>
     <h2>Pokemons List</h2>
     <div class="grid">${cards}</div>

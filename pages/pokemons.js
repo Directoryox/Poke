@@ -6,7 +6,7 @@ export async function pokemonsPage(app) {
   const data = await getPokemonList(50);
   const cards = data.results.map((poke, index) => `
     <div class="card" data-name="${poke.name}">
-      <button class="fav-btn" data-name="${poke.name}">Избранное</button>
+      <button class="bth_favorite" data-name="${poke.name}">Избранное</button>
       <a href="#/pokemons/${index + 1}">${poke.name}</a>
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png" alt="${poke.name}"/>
       <p>ID ${index + 1}</p>

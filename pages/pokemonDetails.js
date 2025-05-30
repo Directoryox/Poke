@@ -31,7 +31,7 @@ export async function pokemonDetailsPage(app, id) {
         <p>Attack: ${existPokemon.stats[3].base_stat}</p>
         <p>Defense: ${existPokemon.stats[5].base_stat}</p>
         <p>Types: ${existPokemon.types[0].type.name}</p>
-        <p>Double damage From: ${doubleDamageFrom}</p>
+        <p>Double damage from: ${doubleDamageFrom}</p>
         <p>Abilities: ${existPokemon.abilities[0].ability.name}</p>
         <button id="Playcry">Play cry</button>
         <a href="#/pokemons" class="back">Back to pokemons</a>

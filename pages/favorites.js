@@ -1,4 +1,4 @@
-import { getPokemonByName } from "../services/pokeapi.js";
+import {getPokemonByName} from "../services/pokeapi.js";
 
 export async function favorites(app) {
     const favs = JSON.parse(localStorage.getItem('favs') || '[]');

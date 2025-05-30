@@ -11,6 +11,6 @@ export async function getPokemonById(id) {
 }
 
 export async function getPokemonByName(name) {
-    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`);
-    return res.json();
+    const result = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}`);
+    return result.json();
 }

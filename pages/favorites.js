@@ -9,7 +9,7 @@ export async function favorites(app) {
     const cards = pokemons.map(poke => `
         <div class="card">
         <a href="#/pokemons/${poke.id}">${poke.name}</a>
-        <img src="${poke.sprites.front_default}" alt="${poke.name}" />
+        <img src="${poke.sprites.front_default}" alt="${poke.name}"/>
         <p>ID: ${poke.id}</p>
         </div>
     `).join('');

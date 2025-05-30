@@ -43,7 +43,7 @@ export async function pokemonsPage(app) {
   }
 });
 
-  document.querySelectorAll('.fav-btn').forEach(btn => {
+  document.querySelectorAll('.bth_favorite').forEach(btn => {
       btn.onclick = () => {
           const name = btn.dataset.name;
           const favs = JSON.parse(localStorage.getItem('favs') || '[]');
